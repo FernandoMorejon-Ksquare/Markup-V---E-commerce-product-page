@@ -1,0 +1,110 @@
+header {
+    display: flex;
+   
+    flex-flow: row;
+    /*justify-content: space-around;*/
+    
+}
+
+.navbar {
+    /*background-color: aqua;*/
+    margin-left: 100px;
+}
+
+.navbar-item {
+    margin-left: 50px;
+    font-size: 18px;
+}   
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(133, 129, 129, 0.993);  
+}
+
+.graphics {
+    margin-left: 900px;
+    padding: 0px 0px 0px 0px;
+}
+
+#cart {
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+
+#profilephoto {
+    height: 60px;
+    border-radius: 10px;
+    
+}
+
+#titlesneakers {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#productimg {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 80px;
+}
+
+.productsmalls {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 50px;
+    height: 80px;
+    border-radius: 5px;
+    border: solid orange;
+}
+
+/* CONTAINER 2 */
+
+.container2 {
+    display: flex;
+    flex-flow: column;
+    margin-right: 500px;
+    margin-top: 120px;
+}
+
+.sneakerCompany {
+    color: orange;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.discount {
+    background-color: rgb(255, 213, 136);
+    color: orange;
+    font-weight: bold;
+    margin-right: 450px;
+}
+
+.beforePrice {
+    color: rgba(158, 158, 158, 0.993);
+    
+}
+
+.cartButton {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    
+}
+
+button img {
+    margin-right: 14px;
+}
